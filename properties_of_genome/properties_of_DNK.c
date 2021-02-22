@@ -115,7 +115,6 @@ int main(int argc, char* argv[])
     check = 0;
     letter = fgetc(f);
     halth_of_gen = (amount_A + amount_G + amount_C + amount_T) / 2;
-    printf("%d", halth_of_gen);
     printf("amount of A : %d, amount of T : %d, amount of G : %d, amount of C : %d \n", amount_A, amount_T, amount_G, amount_C );
     while (letter != EOF)
     {
